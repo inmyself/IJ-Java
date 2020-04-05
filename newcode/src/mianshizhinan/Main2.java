@@ -1,6 +1,8 @@
 package mianshizhinan;
 
+import java.util.HashSet;
 import java.util.Scanner;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class Main2 {
     /*
@@ -18,7 +20,6 @@ public class Main2 {
 按二元组从小到大的顺序输出(二元组大小比较方式为每个依次比较二元组内每个数)
      */
     public static void main(String[] args){
-
         //使用双指针，分别从头部，尾部遍历
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
